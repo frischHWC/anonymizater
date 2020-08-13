@@ -9,7 +9,7 @@ Anonymization process could simply be a replace by null values, a hash in MD5 of
 string.
 
 
-It takes as input: 
+It takes as input: +
 - Location of data to anonymize
 - Location where to write data anonymized
 - Input data type 
