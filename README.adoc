@@ -10,10 +10,10 @@ string.
 
 
 It takes as input: +
-- Location of data to anonymize
-- Location where to write data anonymized
-- Input data type 
-- Output data type
+- Location of data to anonymize + 
+- Location where to write data anonymized +
+- Input data type +
+- Output data type +
 - Encoding to apply to anonymize the data
 
 An example on how to run it here: link:src/main/resources/spark-submit.sh[spark_submit.sh].
