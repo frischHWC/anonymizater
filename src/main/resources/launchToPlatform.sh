@@ -16,7 +16,7 @@ ssh ${USER}@${HOST} mkdir -p ~/${DIRECTORY_TO_WORK}
 scp src/main/resources/spark-submit.sh ${USER}@${HOST}:~/${DIRECTORY_TO_WORK}
 
 scp src/main/resources/application.conf ${USER}@${HOST}:~/${DIRECTORY_TO_WORK} 
-scp src/main/resources/log4j.properties ${USER}@${HOST}:~/${DIRECTORY_TO_WORK} 
+scp src/main/resources/log4j.properties ${USER}@${HOST}:~/${DIRECTORY_TO_WORK}
 scp target/scala-2.11/anonymizater-0.1-SNAPSHOT-jar-with-dependencies.jar ${USER}@${HOST}:~/${DIRECTORY_TO_WORK}/anonymizater.jar
 
 # Check everything is in target directory
