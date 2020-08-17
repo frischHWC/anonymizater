@@ -11,4 +11,4 @@ spark-submit \
     --principal dev \
     anonymizater.jar -Dconfig.file=application.conf \
         --encoder Null --reader parquet --writer csv --cols name \
-        --input hdfs://antibes:8020/user/dev/random_datagen_parquet/random_data-0000000000.parquet --output hdfs://antibes:8020/user/dev/random_datagen_anonymized/
+        --input hdfs://user/dev/random_datagen_csv/random_data-0000000000.csv --output hdfs:///user/dev/random_datagen_anonymized/
