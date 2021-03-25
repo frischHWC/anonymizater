@@ -12,7 +12,7 @@ resolvers ++= Seq(
   Resolver.sonatypeRepo("public")
 )
 
-val sparkVersion = "2.4.0.7.1.5.0-257"
+val sparkVersion = "2.4.0.7.1.6.0-297"
 
 libraryDependencies ++= Seq(
   "org.apache.logging.log4j" % "log4j-api" % "2.11.2",
