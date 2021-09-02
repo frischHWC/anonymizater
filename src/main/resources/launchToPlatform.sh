@@ -3,7 +3,7 @@
 # export HOST=
 
 export USER=root
-export DIRECTORY_TO_WORK="/home/root/anonymizater"
+export DIRECTORY_TO_WORK="/root/anonymizater"
 
 sbt clean assembly
 
